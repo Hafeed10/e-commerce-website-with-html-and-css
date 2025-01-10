@@ -1,0 +1,39 @@
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.icon-container {
+    text-align: center;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.icon-container img {
+    width: 50px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.icon-container p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.icon-container span {
+    font-size: 0.8em;
+    color: #888;
+}
+
+@media (max-width: 768px) {
+
+    /* Adjust breakpoint as needed */
+    .icon-container {
+        flex-basis: 100%;
+    }
+}

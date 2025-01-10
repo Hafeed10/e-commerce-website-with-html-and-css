@@ -1,0 +1,370 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+/* Header Styling */
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Section Top */
+.section_top {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Sale Info Styling */
+.sale-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 14px;
+}
+
+.Summer {
+    font-weight: 500;
+}
+
+.ShopNow {
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Language Selector */
+.language-selector {
+    text-align: center;
+}
+
+#language {
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+#language:hover {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    color: #000;
+}
+
+
+/* Base Styles */
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0px;
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgb(219, 214, 214);
+}
+
+.Exclusive {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.Navbar h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.Navbar_max {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.nav_max {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Navbar_max ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.Navbar_max li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.Navbar_max li a:hover {
+    color: #007bff;
+}
+
+.navbar_right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.search_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #F5F5F5;
+}
+
+.search_container input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    flex-grow: 1;
+    padding: 5px;
+    background-color: transparent;
+}
+
+.search_container .search_icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.search_container .search_icon:hover {
+    transform: scale(1.1);
+}
+
+/* Navbar icons styling */
+.navbar_icons img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.navbar_icons img:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* Base styles for promo section */
+.promo_banner {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.promo_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    gap: 20px;
+}
+
+/* Text Section */
+.text_section {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.apple_logo {
+    width: 30px;
+    height: auto;
+}
+
+.product_name {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    color: #ccc;
+}
+
+.text_section h1 {
+    font-size: 39px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.shop_now {
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: color 0.3s ease;
+}
+
+.shop_now img {
+    width: 20px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.shop_now:hover {
+    color: #007bff;
+}
+
+/* Image Section */
+.image_section img {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .promo_content {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .image_section img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .text_section h1 {
+        font-size: 28px;
+    }
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .Navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .Exclusive {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .Navbar_max {
+        width: 100%;
+        justify-content: space-evenly;
+        margin: 10px 0;
+    }
+
+    .nav_max {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .Navbar_max li a {
+        font-size: 14px;
+    }
+
+    .navbar_right {
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .navbar_right li {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Navbar h1 {
+        font-size: 20px;
+    }
+
+    .Navbar_max li a {
+        font-size: 12px;
+    }
+
+    .navbar_icons img {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .Navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Navbar_max {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navbar_right {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .section_top {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .sale-info {
+        text-align: center;
+        align-items: center;
+        flex-direction: row;
+    }
+}
