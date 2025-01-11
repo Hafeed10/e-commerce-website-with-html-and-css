@@ -120,7 +120,11 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
-
+.view-all-button a{
+  text-decoration: none;
+  color: #ddd;
+  font-size: bold;
+}
 .view-all-button:hover {
   background-color: #c0392b;
 }
@@ -195,4 +199,11 @@ body {
   color: #555;
   cursor: pointer;
   transition: transform 0.3s ease, color 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .product-container {
+    margin-top: 100px;
+  }
+  
 }
