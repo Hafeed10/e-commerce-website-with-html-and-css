@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
 }
 
 /* Header Styling */
@@ -186,78 +186,83 @@ h1 {
 
 
 /* Base styles for promo section */
+/* Base styles for promo section */
 .promo_banner {
     width: 100%;
+    max-width: 1300px;
     background-color: #000;
     color: #fff;
-    padding: 50px 20px;
+    padding: 20px;
+    margin: 50px auto 0; 
+    border-radius: 20px;
     display: flex;
     justify-content: center;
-}
-
-.promo_content {
+  }
+  
+  .promo_content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1150px;
     width: 100%;
     gap: 20px;
-}
-
-/* Text Section */
-.text_section {
+  }
+  
+  /* Text Section */
+  .text_section {
     max-width: 250px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-
-.apple_logo {
+  }
+  
+  .apple_logo {
     width: 30px;
     height: auto;
-}
-
-.product_name {
+  }
+  
+  .product_name {
     font-size: 18px;
     font-weight: 500;
     margin: 0;
     color: #ccc;
-}
-
-.text_section h1 {
+  }
+  
+  .text_section h1 {
     font-size: 39px;
     font-weight: bold;
     margin: 0;
     line-height: 1.2;
-}
-
-.shop_now {
+  }
+  
+  .shop_now {
     display: inline-flex;
     align-items: center;
     color: #fff;
     font-weight: bold;
     font-size: 16px;
     margin-top: 20px;
+    text-decoration: none; /* Add text-decoration: none; to remove underline */
     transition: color 0.3s ease;
-}
-
-.shop_now img {
+  }
+  
+  .shop_now img {
     width: 20px;
     height: auto;
     margin-left: 10px;
-}
-
-.shop_now:hover {
+  }
+  
+  .shop_now:hover {
     color: #007bff;
-}
-
-/* Image Section */
-.image_section img {
+  }
+  
+  /* Image Section */
+  .image_section img {
     width: 500px;
     height: auto;
     object-fit: cover;
     border-radius: 10px;
-}
+  }
 
 /* Responsive Design */
 @media (max-width: 768px) {
