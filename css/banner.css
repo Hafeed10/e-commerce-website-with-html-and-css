@@ -20,6 +20,12 @@ body {
     margin: 0;
 }
 
+.max-port {
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+}
+
 .promo-text .shop-now {
     color: #ffffff;
     text-decoration: none;
