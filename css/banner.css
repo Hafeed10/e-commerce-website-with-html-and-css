@@ -43,3 +43,27 @@ body {
     padding: 5px;
     font-size: 14px;
 }
+@media (max-width: 786px) {
+
+    .max-port {
+        display: flex;
+        justify-content: center;
+        margin-left: 100px;
+    }
+    }
+    @media (max-width: 425px) {
+
+        .max-port {
+            display: flex;
+            justify-content: center;
+            margin-left: 100px;
+        }
+        }
+        @media (max-width: 319px) {
+
+            .max-port {
+                display: flex;
+                justify-content: center;
+                margin-left: 50px;
+            }
+            }
