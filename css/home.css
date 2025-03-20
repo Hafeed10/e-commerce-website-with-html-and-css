@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 
 /* Header Styling */
@@ -174,7 +174,7 @@ h1 {
 
 /* Text Section */
 .text_section {
-    max-width: 250px;
+    max-width: 350px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -187,13 +187,12 @@ h1 {
 
 .product_name {
     font-size: 18px;
-    font-weight: 500;
     margin: 0;
     color: #ccc;
 }
 
 .text_section h1 {
-    font-size: 38px;
+    font-size: 48px;
     font-weight: bold;
     margin: 0;
     line-height: 1.2;
